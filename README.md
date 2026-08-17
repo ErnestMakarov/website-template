@@ -1,16 +1,69 @@
-# React + Vite
+# React Website Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+React + Vite template with React Router, Tailwind CSS and i18next.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Clone the template and give the new project a name:
 
-## React Compiler
+```bash
+git clone https://github.com/ErnestMakarov/website-template.git project-name
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Open the project:
 
-## Expanding the Oxlint configuration
+```bash
+cd project-name
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Install all dependencies:
+
+```bash
+npm install
+```
+
+Start development:
+
+```bash
+npm run dev
+```
+
+## Commands
+
+```bash
+npm run dev
+```
+
+Starts the development server.
+
+```bash
+npm run build
+```
+
+Creates a production build.
+
+```bash
+npm run preview
+```
+
+Previews the production build locally.
+
+```bash
+npm run lint
+```
+
+Checks the project for code issues.
+
+## Included
+
+* React
+* Vite
+* React Router
+* Tailwind CSS
+* i18next
+* Responsive navigation
+* Shared layout
+* 404 page
+* Scroll to top
+
+All required libraries are already listed in `package.json`. After cloning the template, only `npm install` is required.
