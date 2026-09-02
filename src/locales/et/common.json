@@ -1,7 +1,10 @@
 {
   "navigation": {
     "home": "Avaleht",
-    "about": "Meist",
+    "works": "Tööd",
+    "services": "Teenused",
+    "process": "Protsess",
+    "about": "Minust",
     "contacts": "Kontakt"
   }
 }
